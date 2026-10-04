@@ -40,7 +40,7 @@ Navigate to your project root folder and install the required packages for both 
 ```bash
 npm install express mssql cors nodemon
 
-
+---
 
 ### 2. Configure Database Connection
 
