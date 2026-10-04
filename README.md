@@ -1,8 +1,3 @@
-Aapke **Healthcare Management System (CarePortal)** project ke liye ek professional aur complete `README.md` file tayar hai. Aap isay copy kar ke apne project folder mein save kar sakti hain:
-
----
-
-```markdown
 # 🏥 CarePortal - Healthcare Management System
 
 An enterprise-grade **Healthcare Management System (HMS)** designed to streamline hospital administrative workflows, patient tracking, doctor-patient admissions, and operational resource management.
@@ -14,8 +9,8 @@ An enterprise-grade **Healthcare Management System (HMS)** designed to streamlin
 CarePortal bridges the gap between front-end user interactions and back-end database operations, providing real-time data sync for hospital staff. 
 
 * **Frontend:** Built with **React.js** featuring a modern, responsive dashboard interface (Overview Dashboard, Patients Registry, Admission Logs, and Clinical Support Helpdesk).
-* **Backend:** Powered by **Node.js** and **Express.js**, handling RESTful routing, CORS integration, and robust database middleware[cite: 4, 5].
-* **Database:** Connects with **Microsoft SQL Server (MSSQL)** utilizing optimized connection pooling (`mssql` package) for high-speed query handling and data persistence[cite: 4, 5].
+* **Backend:** Powered by **Node.js** and **Express.js**, handling RESTful routing, CORS integration, and robust database middleware.
+* **Database:** Connects with **Microsoft SQL Server (MSSQL)** utilizing optimized connection pooling (`mssql` package) for high-speed query handling and data persistence.
 
 ---
 
@@ -23,10 +18,10 @@ CarePortal bridges the gap between front-end user interactions and back-end data
 
 | File Name | Description |
 | :--- | :--- |
-| `db.js` | Configures the SQL Server connection pool (`sa` user credentials, server connection options, and error handling)[cite: 3, 4]. |
-| `server.js` | Main backend entry point handling HTTP routes (`/patients`, `/dropdowns`, `/admissions`) and database execution[cite: 3, 5, 6, 7]. |
-| `App.js` | Core React frontend component managing UI layouts, multi-tab navigation, form states, and live dashboard metrics[cite: 3, 9, 10]. |
-| `package.json` | Contains project metadata and lists core dependencies (`express`, `mssql`, `cors`, `nodemon`)[cite: 3, 27]. |
+| `db.js` | Configures the SQL Server connection pool (`sa` user credentials, server connection options, and error handling). |
+| `server.js` | Main backend entry point handling HTTP routes (`/patients`, `/dropdowns`, `/admissions`) and database execution. |
+| `App.js` | Core React frontend component managing UI layouts, multi-tab navigation, form states, and live dashboard metrics. |
+| `package.json` | Contains project metadata and lists core dependencies (`express`, `mssql`, `cors`, `nodemon`). |
 
 ---
 
@@ -35,6 +30,15 @@ CarePortal bridges the gap between front-end user interactions and back-end data
 * **Node.js** (v14+ recommended)
 * **Microsoft SQL Server (SQL Server Management Studio / SQLEXPRESS)**
 * **npm** (Node Package Manager)
+
+---
+
+## 🛠️ Installation & Setup Instructions
+
+### 1. Clone the Repository & Install Dependencies
+Navigate to your project root folder and install the required packages for both the server and client components:
+```bash
+npm install express mssql cors nodemon
 
 ---
 
